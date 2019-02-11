@@ -1,7 +1,7 @@
-import merge from 'lodash/merge';
 import {autobind} from '@shopify/javascript-utilities/decorators';
 import {get} from '../../../../utilities/get';
 import defaultTranslation from '../../../../locales';
+import merge from '../../../../utilities/merge';
 import {
   TranslationDictionary,
   PrimitiveReplacementDictionary,
@@ -27,11 +27,11 @@ export default class Intl {
     translation: TranslationDictionary | TranslationDictionary[] | undefined,
   ) {
     const i18n = Array.isArray(translation)
-      ? merge({}, ...translation)
+      ? merge(...translation)
       : translation;
 
     this.translation = i18n
-      ? merge({}, defaultTranslation, i18n)
+      ? merge(defaultTranslation, i18n)
       : defaultTranslation;
   }
 
