@@ -27,6 +27,8 @@ Use [the changelog guidelines](https://git.io/polaris-changelog-guidelines) to f
 
 ### Dependency upgrades
 
+- Updated most dependencies and dev dependencies ([#1187](https://github.com/Shopify/polaris-react/pull/1187))
+
 ### Code quality
 
 ### Deprecations
