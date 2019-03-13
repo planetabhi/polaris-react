@@ -18,6 +18,7 @@ Use [the changelog guidelines](https://git.io/polaris-changelog-guidelines) to f
 ### Bug fixes
 
 - Fixed unnecessary height on `TextField` due to unhandled carriage returns ([#901](https://github.com/Shopify/polaris-react/pull/901))
+- Fixed webpack example that does not compile ([#1189](https://github.com/Shopify/polaris-react/issues/1189))
 
 ### Documentation
 
@@ -26,6 +27,8 @@ Use [the changelog guidelines](https://git.io/polaris-changelog-guidelines) to f
 ### Development workflow
 
 ### Dependency upgrades
+
+- Updated webpack example dependencies and dev dependencies ([#1189](https://github.com/Shopify/polaris-react/issues/1189))
 
 ### Code quality
 
